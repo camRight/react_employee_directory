@@ -26,6 +26,8 @@ function App() {
 
     // React: like a tree branching out (upside down)
     <div className="App">
+
+      IS IT WORKING?
     <Home />
 
     </div>

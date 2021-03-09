@@ -1,5 +1,5 @@
 import Button from "../Components/Button/Button";
-import Table from "../Components/Table/Table";
+import DisplayTable from "../Components/Table/Table";
 import React, { Component } from "react";
 import API from "../utils/API";
 
@@ -15,13 +15,13 @@ class  Home extends Component {
             })
         })
     }
-    // u'd right constructor here if there are variables.
+    // you would write constructor here if there are variables...
     render (){
         return (
             <>
                 < Button color="success" text="ABC Desc" />
                 <Button color="success" text="ABC Asc" />
-                <Table arr={this.state.arr} />
+                <DisplayTable arr={this.state.arr} />
             </>
         )
     }

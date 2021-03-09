@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Table = (props) => {
+const DisplayTable = (props) => {
     return (
-        <Table striped bordered hover>
+        <table striped bordered hover>
             <thead>
                 <tr>
                     <th>#</th>
@@ -13,6 +13,7 @@ const Table = (props) => {
             </thead>
             <tbody>
                 {console.log(props.arr)}
+                {/* use map here for the TR's */}
                 <tr>
                     <td>1</td>
                     <td>Mark</td>
@@ -31,8 +32,8 @@ const Table = (props) => {
                     <td>@twitter</td>
                 </tr>
             </tbody>
-        </Table>
+        </table>
     )
 }
 
-export default Table;
+export default DisplayTable;
