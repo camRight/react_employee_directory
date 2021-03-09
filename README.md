@@ -18,12 +18,16 @@ State and Hooks... What are they?
         Global Class Variable -- data available everywhere in the file. generally, Global Class Variables are not accessible outside of that file. (Children cannot see changes) So how do we rectify this problem? State.
 
 State: State is more basic... kinda like having the training wheels on. State is limited to class components
-    Keying into state: you'll see `extends` ... i.e. `class MyClass extends React.Component {
+    Keying into state: you'll see `extends` ... i.e. 
+    
+    ```
+    class MyClass extends React.Component {
         constructor(props) {
             super(props);
             this.state = { attribute : "value" };
         }
-    }`
+    }
+    ```
 
 Hooks: Training wheels are off. You maintain everything.
 
