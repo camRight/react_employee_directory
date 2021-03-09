@@ -19,7 +19,9 @@ It's a triangle or upside down tree where:
         - these are the smallest part of the puzzle...
 
 State and Hooks... What are they?
+
     ### State & Hooks are DATA STORAGE. They perform the same task.
+    
     To first understand state understand global class variables.
         Global Class Variable -- data available everywhere in the file. generally, Global Class Variables are not accessible outside of that file. (Children cannot see changes) So how do we rectify this problem? State.
 
