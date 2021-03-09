@@ -1,8 +1,12 @@
 import './App.css';
 import Button from "./Components/Button/Button";
 import Table from "./Components/Table/Table";
+import Home from "./Pages/Home";
 import Api from "./utils/API";
 
+
+
+// where you put routes.
 function App() {
   return (
 
@@ -22,11 +26,8 @@ function App() {
 
     // React: like a tree branching out (upside down)
     <div className="App">
-      Hello World
-      <Button color="success" text="ABC Desc" />
-      <Button color="success" text="ABC Asc" />
+    <Home />
 
-      <Table />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Table = () => {
+const Table = (props) => {
     return (
         <Table striped bordered hover>
             <thead>
@@ -12,6 +12,7 @@ const Table = () => {
                 </tr>
             </thead>
             <tbody>
+                {console.log(props.arr)}
                 <tr>
                     <td>1</td>
                     <td>Mark</td>
