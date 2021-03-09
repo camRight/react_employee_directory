@@ -1,6 +1,8 @@
 import axios from "axios";
 
 
+// axios is probably unnecessary. 
+
 function App() {
     const [state, setState] = useState([])
     useEffect(() => {
@@ -27,4 +29,5 @@ function App() {
 
     console.log()
 }
-module.exports = Api;
+
+export default Api;
