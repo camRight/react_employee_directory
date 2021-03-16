@@ -10,6 +10,7 @@ import Api from "./utils/API";
 function App() {
   return (
 
+      //  Notes:
     // it's a triangle
     // app is the top of the triangle (react routes)
     // next (second tier) pages (states and hook)
@@ -25,6 +26,9 @@ function App() {
     // third (components)
 
     // React: like a tree branching out (upside down)
+
+
+    
     <div className="App">
 
       IS IT WORKING? yes.
