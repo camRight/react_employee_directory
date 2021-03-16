@@ -19,7 +19,7 @@ class  Home extends Component {
     render (){
         return (
             <>
-                < Button color="success" text="ABC Desc" />
+                <Button color="success" text="ABC Desc" />
                 <Button color="success" text="ABC Asc" />
                 <DisplayTable arr={this.state.arr} />
             </>

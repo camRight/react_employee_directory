@@ -48,3 +48,5 @@ Hooks: Training wheels are off. You maintain everything.
 
 
 child components display UI
+
+Use effect updates, mounts or unmounts a component to unrender a component/turn off any listeners (fact check)
